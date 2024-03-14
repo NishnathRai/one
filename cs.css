@@ -1,0 +1,343 @@
+@font-face {
+    font-family: b;
+    src: url(./mark-simonson-bold.woff2);
+}
+@font-face {
+    font-family: r;
+    src: url(./mark-simonson-regular.woff2);
+}
+.pc{
+    color:  rgb(235,89,57);
+}
+.sc{
+    color: rgb(183, 170, 152);
+}
+.lsc{
+    color: rgb(46,44,41);
+}
+.ta{
+    text-align: center;
+}
+.bb{
+    font-family: b;
+}
+.rr{
+    font-family: r;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(3, 8, 28);
+    background-color:   rgb(2, 2, 12);
+  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.pointer{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: rgb(235,89,57);
+    position: absolute;
+    mix-blend-mode: difference;
+    z-index: 100;
+    top:-20%;
+}
+/* logo */
+#logo{
+   width: 6vw;
+   position: fixed;
+   top: 0;
+   z-index: 10000;
+}
+/* page1 */
+.hero{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.heroheading{
+    height: 30%;
+    line-height: 4vh;
+    background-color: rgb(3, 8, 28);
+    background-color:   rgb(2, 2, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heroheading>h1{
+    font-family: b;
+    font-size: 15vh;
+    margin-top: 4vh;
+    color: rgb(235,89,57);
+}
+.heroheading>h2{
+    font-family: r;
+}
+.heroimg{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 8, 28);
+    background-color:   rgb(2, 2, 12);
+}
+.heroimg>img{
+    height: 100%;
+}
+/* page2 */
+.pg2{
+width: 100vw;
+padding-left: 10vw;
+padding-right: 10vw;
+background-color: rgb(3, 8, 28);
+background-color:   rgb(2, 2, 12);
+}
+.ah{
+    font-family: r;
+    font-size: 3vw;
+    letter-spacing: 2vw;
+    margin: 2vh;
+    margin-left: 0;
+}
+.amatter{
+    font-family: b;
+    font-size: 4vw;
+    width: 80vw;
+}
+.oo{
+    overflow: hidden;
+    position: absolute;
+}
+/* page3 */
+.pg3{
+    width: 100vw;
+    padding-top: 20vh;   
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.skillbox{
+    width: 100%;
+    height: 7vh;
+    margin-top: 10vh;
+    /* border-top-style: solid; */
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color:  rgb(183, 170, 152);
+    color:  rgb(183, 170, 152);
+    font-family: b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skillbox h1{
+    color: rgb(235,89,57);
+}
+.skillbox h2{
+    text-align: end;
+}
+/* page4 */
+.pg4{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding-top: 1vh;
+}
+.pg4 .left{
+    background-color: white;
+    width: 40vw;
+    height: 100vh;
+    font-family: b;
+    font-size: 10vh;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(3, 8, 28);
+    background-color:   rgb(2, 2, 12);
+}
+.pg4 .right{
+   width: 60vw;
+   height:max-content;
+   background-color:rgb(3, 8, 28);
+   background-color:   rgb(2, 2, 12);
+   padding-top: 30vh;
+   padding-left: 10vw;
+   padding-right: 10vw;
+}
+.right h1{
+    font-size: 5vh;
+    margin: 2vh;
+    margin-top: 20vh;
+}
+.right p{
+    font-size: xx-large;
+     margin: 2vh;
+     margin-top: 5vh;
+}
+/* page 5 */
+.pg5{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: b;
+    color:  rgb(235,89,57);
+    font-size: 4vh;
+}
+.declaration{
+    height: 30vh;
+    width: 60vw;
+    background-color:  rgb(235,89,57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    overflow: hidden;
+}
+#reee{
+    font-size: xx-large;
+    font-family: r;
+}
+.pg5 p{
+    font-family: r;
+    font-size: 3vh;
+    background-color: rgb(235,89,57);
+    color: black;
+    text-align: center;
+}
+.inn{
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(235,89,57);
+}
+/* for page 6 */
+.pg6{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 82, 51);
+}
+
+
+/* finally connect */
+.connect{
+    height: 50vh;
+    padding-left: 10vw;
+}
+.liin{
+    height: 8vh;
+    width: 30vw;
+    color:rgb(183, 170, 152);
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    font-size: 5vh;
+    margin-top: 3vh;
+}
+.liin a{
+    text-decoration: none;
+    color:rgb(183, 170, 152);
+    font-family: b;
+}
+.liin h{
+    color:rgb(236, 82, 51);
+    font-size: 8vh;
+}
+#kk{
+    display: flex;
+}
+.cc{
+    padding-top: 10vh;
+    text-align: center;
+}
+.ll{
+    padding-top: 13vh;
+}
+@media (max-width:600px) {
+    .heroimg>img{
+        height: 60%;
+    }
+    .heroheading>h1{
+        font-size: 7vh;
+    }
+    .ah{
+       font-size: 5vw;
+    }
+    .amatter{
+    font-size: 5vw;
+    }
+    .pg3{
+        padding-top: 10vh; 
+    }
+    .skillbox>h1{
+        font-size:  4vw;
+    }
+    .skillbox>h2{
+        font-size:  2vw;
+    }
+    .skillbox{
+        margin-top: 0vh;
+    }
+    .pg4 .left{
+        width: 40vw;
+        font-size: x-large;
+    }
+    .pg4 .right{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    }
+    .right h1{
+        font-size:1.4vh;
+      margin-top: 7vh;
+    }
+    .right p{
+        font-size: small;
+        margin: 0%;
+    }
+    .pg4 .right{
+    padding: 0;
+    padding-top: 10vh;
+    }
+    #logo{
+        width: 13vw;
+    }
+    .declaration{
+        height: 30vh;
+        width: 80vw;
+    }
+    #leee{
+     font-size: xx-large;
+    }
+    .pg5 p{
+        font-size: 2vh;
+    }
+    #reee{
+        font-size: x-large;
+    }
+    .pg6 img{
+      height: 20vh; 
+    }
+    .liin{
+        font-size: 2vh;
+    }
+    .liin h{
+        font-size:3vh;
+    }
+}
